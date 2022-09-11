@@ -1,0 +1,82 @@
+6.5,6.5
+vcsa 6.7,6.7
+6.7,6.7
+7.0,7.0
+All Certs Reset,All_certs_reset
+we have reset all the certs,All_certs_reset
+Authentication token,Authentication_token
+Command line,Command_line
+might not display the VC 6.7,Display_error
+Download failed,Download_failed
+Exception occurred,Exception_occurred
+Existing RPMs,Existing_RPMs
+503 error,General_Customer_Concern
+I am getting 503 service unavailable error while logging to vcenter server,General_Customer_Concern
+We have a problem accessing a vCenter 6.5. HTTP error 503,General_Customer_Concern
+"Our VCSA 6.7.0.48000 failed to error message ""503 Service Unavailable""",General_Customer_Concern
+VC not accessible - 503 service unavailable,General_Customer_Concern
+VC not accessible,General_Customer_Concern
+503 service unavailable,General_Customer_Concern
+"""503 Service Unavailable"" error message on the vSphere Client when accessing the vCenter Server",General_Customer_Concern
+503,General_Customer_Concern
+Unable access VCenter Appliance,General_Customer_Concern
+Need assistance as unable to sign-in to the vSphere client,General_Customer_Concern
+VC not accessible with 503 error,General_Customer_Concern
+Guide,Guide
+Inaccessibility,Inaccessibility
+inaccessible,Inaccessibility
+installation in progress,Installation_progress
+Latest updates,Latest_updates
+Go to main menu,Main_Menu
+Take me to the main menu,Main_Menu
+maximum retries,max_retries
+No other certs expired,No_other_cert_expired
+"No, other certs are not expired",No_other_cert_expired
+There is no enough space in the partition,No_partition_space
+No partition space,No_partition_space
+no space,No_space
+Option,Option
+unable to patch the vcenter server,Patching
+vcenter server patching got failed,Patching
+getting error during patching of the vcenter server,Patching
+failed to patch the vcenter server,Patching
+patching issue,Patching
+Services Not Started,Services_Not_Started
+Services are not started,Services_Not_Started
+"Yes, all the services got started successfully",Services_Started
+Services Started,Services_Started
+Reset the STS successfully,STS_Reset
+I do not know how to check other certs,To_check_other_certs
+To check other certs,To_check_other_certs
+I dont know how to check partition space,To_check_partition_space
+To check partition space,To_check_partition_space
+unexpected content,unexpected_content
+content,unexpected_content
+unexpected,unexpected_content
+Yes STS is expired,Update
+Yes STS certificate is expired,Update
+Yes it is expired,Update
+"Yes, the certificate is expired",Update
+Update,Update
+STS certificate is not expired,Valid
+Customer concern,Valid
+No Expired STS,Valid
+It is not expired,Valid
+certificate is not expired,Valid
+"No, it is not expired",Valid
+STS Reset,Valid
+Valid,Valid
+STS is not expired,Valid
+VAMI Based,VAMI_Based
+Verify,Verify
+I do not know how to check STS,Verify
+6.7,version
+6.5,version
+7.0,version
+You were of great ehlp,Yes_Helpful
+Yes Helpful,Yes_Helpful
+Yes other certs expired,Yes_other_cert_expired
+Yes other cards expired,Yes_other_cert_expired
+Other certificates are expired,Yes_other_cert_expired
+Yes partition space,Yes_Partition_space
+"yes, I have enough partition space",Yes_Partition_space

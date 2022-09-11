@@ -1,0 +1,1718 @@
+{
+  "intents": [
+    {
+      "intent": "6.5",
+      "examples": [
+        {
+          "text": "6.5"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "6.7",
+      "examples": [
+        {
+          "text": "6.7"
+        },
+        {
+          "text": "vcsa 6.7"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "7.0",
+      "examples": [
+        {
+          "text": "7.0"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "All_certs_reset",
+      "examples": [
+        {
+          "text": "All Certs Reset"
+        },
+        {
+          "text": "we have reset all the certs"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Authentication_token",
+      "examples": [
+        {
+          "text": "Authentication token"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Command_line",
+      "examples": [
+        {
+          "text": "Command line"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Display_error",
+      "examples": [
+        {
+          "text": "might not display the VC 6.7"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Download_failed",
+      "examples": [
+        {
+          "text": "Download failed"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Exception_occurred",
+      "examples": [
+        {
+          "text": "Exception occurred"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Existing_RPMs",
+      "examples": [
+        {
+          "text": "Existing RPMs"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Customer_Concern",
+      "examples": [
+        {
+          "text": "503"
+        },
+        {
+          "text": "503 error"
+        },
+        {
+          "text": "503 service unavailable"
+        },
+        {
+          "text": "\"503 Service Unavailable\" error message on the vSphere Client when accessing the vCenter Server"
+        },
+        {
+          "text": "I am getting 503 service unavailable error while logging to vcenter server"
+        },
+        {
+          "text": "Need assistance as unable to sign-in to the vSphere client"
+        },
+        {
+          "text": "Our VCSA 6.7.0.48000 failed to error message \"503 Service Unavailable\""
+        },
+        {
+          "text": "Unable access VCenter Appliance"
+        },
+        {
+          "text": "VC not accessible"
+        },
+        {
+          "text": "VC not accessible - 503 service unavailable"
+        },
+        {
+          "text": "VC not accessible with 503 error"
+        },
+        {
+          "text": "We have a problem accessing a vCenter 6.5. HTTP error 503"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Guide",
+      "examples": [
+        {
+          "text": "Guide"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Inaccessibility",
+      "examples": [
+        {
+          "text": "Inaccessibility"
+        },
+        {
+          "text": "inaccessible"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Installation_progress",
+      "examples": [
+        {
+          "text": "installation in progress"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Latest_updates",
+      "examples": [
+        {
+          "text": "Latest updates"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Main_Menu",
+      "examples": [
+        {
+          "text": "Go to main menu"
+        },
+        {
+          "text": "Take me to the main menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "max_retries",
+      "examples": [
+        {
+          "text": "maximum retries"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No_other_cert_expired",
+      "examples": [
+        {
+          "text": "No, other certs are not expired"
+        },
+        {
+          "text": "No other certs expired"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No_partition_space",
+      "examples": [
+        {
+          "text": "No partition space"
+        },
+        {
+          "text": "There is no enough space in the partition"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No_space",
+      "examples": [
+        {
+          "text": "no space"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Option",
+      "examples": [
+        {
+          "text": "Option"
+        }
+      ],
+      "description": "Option"
+    },
+    {
+      "intent": "Patching",
+      "examples": [
+        {
+          "text": "failed to patch the vcenter server"
+        },
+        {
+          "text": "getting error during patching of the vcenter server"
+        },
+        {
+          "text": "patching issue"
+        },
+        {
+          "text": "unable to patch the vcenter server"
+        },
+        {
+          "text": "vcenter server patching got failed"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Services_Not_Started",
+      "examples": [
+        {
+          "text": "Services are not started"
+        },
+        {
+          "text": "Services Not Started"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Services_Started",
+      "examples": [
+        {
+          "text": "Services Started"
+        },
+        {
+          "text": "Yes, all the services got started successfully"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "STS_Reset",
+      "examples": [
+        {
+          "text": "Reset the STS successfully"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "To_check_other_certs",
+      "examples": [
+        {
+          "text": "I do not know how to check other certs"
+        },
+        {
+          "text": "To check other certs"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "To_check_partition_space",
+      "examples": [
+        {
+          "text": "I dont know how to check partition space"
+        },
+        {
+          "text": "To check partition space"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "unexpected_content",
+      "examples": [
+        {
+          "text": "content"
+        },
+        {
+          "text": "unexpected"
+        },
+        {
+          "text": "unexpected content"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Update",
+      "examples": [
+        {
+          "text": "Update"
+        },
+        {
+          "text": "Yes it is expired"
+        },
+        {
+          "text": "Yes STS certificate is expired"
+        },
+        {
+          "text": "Yes STS is expired"
+        },
+        {
+          "text": "Yes, the certificate is expired"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Valid",
+      "examples": [
+        {
+          "text": "certificate is not expired"
+        },
+        {
+          "text": "Customer concern"
+        },
+        {
+          "text": "It is not expired"
+        },
+        {
+          "text": "No Expired STS"
+        },
+        {
+          "text": "No, it is not expired"
+        },
+        {
+          "text": "STS certificate is not expired"
+        },
+        {
+          "text": "STS is not expired"
+        },
+        {
+          "text": "STS Reset"
+        },
+        {
+          "text": "Valid"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "VAMI_Based",
+      "examples": [
+        {
+          "text": "VAMI Based"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Verify",
+      "examples": [
+        {
+          "text": "I do not know how to check STS"
+        },
+        {
+          "text": "Verify"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "version",
+      "examples": [
+        {
+          "text": "6.5"
+        },
+        {
+          "text": "6.7"
+        },
+        {
+          "text": "7.0"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes_Helpful",
+      "examples": [
+        {
+          "text": "Yes Helpful"
+        },
+        {
+          "text": "You were of great ehlp"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes_other_cert_expired",
+      "examples": [
+        {
+          "text": "Other certificates are expired"
+        },
+        {
+          "text": "Yes other cards expired"
+        },
+        {
+          "text": "Yes other certs expired"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes_Partition_space",
+      "examples": [
+        {
+          "text": "yes, I have enough partition space"
+        },
+        {
+          "text": "Yes partition space"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "No_Enough_Partition_Space",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No, I do not have enough partition space",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "No_Expired_STS",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No expired STS",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "Yes_Enough_Partition_Sapce",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes i have enough partition space",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Yes_Expired_STS",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Yes Expired STS",
+          "synonyms": [
+            "signing certificate is not valid"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Yes_HelpFul",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "You were of great help",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1626767782135",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "title": "Hello, Welcome to the troubleshooting assistant for vCenter server. Please select one of the category listed below",
+            "options": [
+              {
+                "label": "vCenter Server Inaccessible",
+                "value": {
+                  "input": {
+                    "text": "Inaccessibility"
+                  }
+                }
+              },
+              {
+                "label": "vCenter Server Patching",
+                "value": {
+                  "input": {
+                    "text": "Option"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_10_1658735334167"
+    },
+    {
+      "type": "standard",
+      "title": "Option",
+      "output": {
+        "generic": [
+          {
+            "title": "OK. Please select the relevant option",
+            "options": [
+              {
+                "label": "Guide to patch the vCenter Server",
+                "value": {
+                  "input": {
+                    "text": "Guide"
+                  }
+                }
+              },
+              {
+                "label": "Issue during the patching activity",
+                "value": {
+                  "input": {
+                    "text": "Patching"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Option",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1659035527426",
+      "previous_sibling": "node_10_1658735334167"
+    },
+    {
+      "type": "standard",
+      "title": "Guide",
+      "output": {
+        "generic": [
+          {
+            "title": "Welcome to the vSphere manual to patch the vCenter server. Please select your preferred method of patching",
+            "options": [
+              {
+                "label": "Command line",
+                "value": {
+                  "input": {
+                    "text": "Command line"
+                  }
+                }
+              },
+              {
+                "label": "GUI - VAMI Based",
+                "value": {
+                  "input": {
+                    "text": "VAMI Based"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Guide",
+      "dialog_node": "node_10_1659035730738",
+      "previous_sibling": "node_10_1659035527426"
+    },
+    {
+      "type": "standard",
+      "title": "Yes Helpful",
+      "output": {
+        "generic": [
+          {
+            "title": "I am glad that I was able to help you. You have a wonderful day ahead. If you want to continue chatting please select continue below",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "Continue Chatting"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Yes_Helpful",
+      "dialog_node": "node_1_1626767782135",
+      "previous_sibling": "node_4_1626767644223"
+    },
+    {
+      "type": "standard",
+      "title": "To check partition space",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article https://ikb.vmware.com/s/article/76563 to check the free space and click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "No Expired STS"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1626768800563"
+      },
+      "conditions": "#To_check_partition_space",
+      "dialog_node": "node_1_1626857976678",
+      "previous_sibling": "node_9_1626769676949"
+    },
+    {
+      "type": "standard",
+      "title": "Valid",
+      "output": {
+        "generic": [
+          {
+            "title": "Next Step - Do you have more than 22% free space in all the partitions?",
+            "options": [
+              {
+                "label": "Yes, I have more than 22% free space in all the partitions.",
+                "value": {
+                  "input": {
+                    "text": "Yes partition space "
+                  }
+                }
+              },
+              {
+                "label": "No, I do not have 22% free space in all the partitions",
+                "value": {
+                  "input": {
+                    "text": "No partition space"
+                  }
+                }
+              },
+              {
+                "label": "I am not sure how to check if there is free space in the partitions",
+                "value": {
+                  "input": {
+                    "text": "To check partition space"
+                  }
+                }
+              },
+              {
+                "label": "Go to main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Valid",
+      "dialog_node": "node_2_1626768800563",
+      "previous_sibling": "node_4_1626766987780"
+    },
+    {
+      "type": "standard",
+      "title": "No other certs expired",
+      "output": {
+        "generic": [
+          {
+            "title": "Step - Please click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "All Certs Reset"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1626852601381"
+      },
+      "conditions": "#No_other_cert_expired",
+      "dialog_node": "node_2_1626861298961",
+      "previous_sibling": "node_4_1626851866077"
+    },
+    {
+      "type": "standard",
+      "title": "To check other certs",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article https://ikb.vmware.com/s/article/2015600 to check the expiry of other certificates and click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "Yes partition space"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1626769676949"
+      },
+      "conditions": "#To_check_other_certs",
+      "dialog_node": "node_2_1626862205719",
+      "previous_sibling": "node_2_1626861298961"
+    },
+    {
+      "type": "standard",
+      "title": "Services not started",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please open a case with VMware for a tech support engineer to assist you on this case. Thank You."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Services_Not_Started",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1626862918144",
+      "previous_sibling": "node_3_1626853482843"
+    },
+    {
+      "type": "standard",
+      "title": "Max retries",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/87238. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#max_retries",
+      "dialog_node": "node_2_1658750870322",
+      "previous_sibling": "node_3_1658734530336"
+    },
+    {
+      "type": "standard",
+      "title": "Latest updates",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/59659. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Latest_updates",
+      "dialog_node": "node_2_1659033590872",
+      "previous_sibling": "node_8_1658734536646"
+    },
+    {
+      "type": "standard",
+      "title": "Services Started",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please try accessing your vcenter server through client. Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Services_Started",
+      "dialog_node": "node_3_1626853482843",
+      "previous_sibling": "node_4_1626852601381"
+    },
+    {
+      "type": "standard",
+      "title": "7.0",
+      "output": {
+        "generic": [
+          {
+            "title": "OK. Thanks for confirmation of your vCenter server version. Please click on the most trending errors listed below:",
+            "options": [
+              {
+                "label": "You have reached maximum number of retries to resume the patching",
+                "value": {
+                  "input": {
+                    "text": "Max retries"
+                  }
+                }
+              },
+              {
+                "label": "No space left on device",
+                "value": {
+                  "input": {
+                    "text": "No space"
+                  }
+                }
+              },
+              {
+                "label": "Exception occurred in install precheck phase",
+                "value": {
+                  "input": {
+                    "text": "Exception occurred"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#7.0",
+      "dialog_node": "node_3_1658734530336",
+      "previous_sibling": "node_9_1658746756494"
+    },
+    {
+      "type": "standard",
+      "title": "No space",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/85822. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#No_space",
+      "dialog_node": "node_3_1658751266672",
+      "previous_sibling": "node_2_1658750870322"
+    },
+    {
+      "type": "standard",
+      "title": "Update",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that your STS cert is expired. Please follow this KB article https://ikb.vmware.com/s/article/76719 to regenerate the STS  certificate and click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "No Expired STS"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1626768800563"
+      },
+      "conditions": "#Update",
+      "dialog_node": "node_4_1626766987780",
+      "previous_sibling": "node_9_1658729960616"
+    },
+    {
+      "type": "standard",
+      "title": "Main Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome back. Please continue chatting with me with below options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Main_Menu",
+      "dialog_node": "node_4_1626767644223",
+      "previous_sibling": "node_2_1626862918144"
+    },
+    {
+      "type": "standard",
+      "title": "Yes other certs expired",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that other certs are expired. Please follow this KB article https://ikb.vmware.com/s/article/2112283 to reset all the certificates and click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "All Certs Reset"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Yes_other_cert_expired",
+      "dialog_node": "node_4_1626851866077",
+      "previous_sibling": "node_1_1626857976678"
+    },
+    {
+      "type": "standard",
+      "title": "All Certs Reset",
+      "output": {
+        "generic": [
+          {
+            "title": " Next Step - Please restart all the services with below command: service-control --stop --all && service-control --start --all",
+            "options": [
+              {
+                "label": "The service start is successful",
+                "value": {
+                  "input": {
+                    "text": "Services Started"
+                  }
+                }
+              },
+              {
+                "label": "The service start is failed",
+                "value": {
+                  "input": {
+                    "text": "Services Not Started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#All_certs_reset",
+      "dialog_node": "node_4_1626852601381",
+      "previous_sibling": "node_2_1626862205719"
+    },
+    {
+      "type": "standard",
+      "title": "Installation in progress",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/67179. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Installation_progress",
+      "dialog_node": "node_4_1658746579111",
+      "previous_sibling": "node_5_1658752147669"
+    },
+    {
+      "type": "standard",
+      "title": "unexpected content",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/76024. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#unexpected_content",
+      "dialog_node": "node_5_1658752147669",
+      "previous_sibling": "node_6_1658734533590"
+    },
+    {
+      "type": "standard",
+      "title": "Authentication token",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/55022. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Authentication_token",
+      "dialog_node": "node_5_1659033595879",
+      "previous_sibling": "node_7_1659033593303"
+    },
+    {
+      "type": "standard",
+      "title": "Existing RPMs",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/66944. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Existing_RPMs",
+      "dialog_node": "node_5_1659033600408",
+      "previous_sibling": "node_5_1659033595879"
+    },
+    {
+      "type": "standard",
+      "title": "6.7",
+      "output": {
+        "generic": [
+          {
+            "title": "OK. Thanks for confirmation of your vCenter server version. Please click on the most trending errors listed below:",
+            "options": [
+              {
+                "label": "Unexpected content in /etc/issue file",
+                "value": {
+                  "input": {
+                    "text": "Unexpected content"
+                  }
+                }
+              },
+              {
+                "label": "\"Update installation in progress\" after recovering from a failed update",
+                "value": {
+                  "input": {
+                    "text": "Installation in progress"
+                  }
+                }
+              },
+              {
+                "label": "The VAMI might not display the VC 6.7.x patch",
+                "value": {
+                  "input": {
+                    "text": "Display error"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#6.7",
+      "dialog_node": "node_6_1658734533590",
+      "previous_sibling": "node_5_1659033600408"
+    },
+    {
+      "type": "standard",
+      "title": "Command line",
+      "output": {
+        "generic": [
+          {
+            "title": "Please access the link for the command line patching procedure and confirm if you were able to patch the vCenter Server successfully https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vcenter.upgrade.doc/GUID-5FCA78EC-8637-43A4-8B28-24624E4D5EBA.html",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Command_line",
+      "dialog_node": "node_6_1659036354448",
+      "previous_sibling": "node_10_1659035730738"
+    },
+    {
+      "type": "standard",
+      "title": "VAMI Based",
+      "output": {
+        "generic": [
+          {
+            "title": "Please access the link for the command line patching procedure and confirm if you were able to patch the vCenter Server successfully https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vcenter.upgrade.doc/GUID-E5E78149-4AC8-4DD7-BBA8-19CC17711D40.html",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#VAMI_Based",
+      "dialog_node": "node_6_1659036357223",
+      "previous_sibling": "node_6_1659036354448"
+    },
+    {
+      "type": "standard",
+      "title": "Verify",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article https://ikb.vmware.com/s/article/79248 to check the expiry of STS certificate and click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "Valid"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Verify",
+      "dialog_node": "node_7_1626857198117",
+      "previous_sibling": "node_2_1626768800563"
+    },
+    {
+      "type": "standard",
+      "title": "Download failed",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/79552. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Download_failed",
+      "dialog_node": "node_7_1659033593303",
+      "previous_sibling": "node_2_1659033590872"
+    },
+    {
+      "type": "standard",
+      "title": "6.5",
+      "output": {
+        "generic": [
+          {
+            "title": "OK. Thanks for confirmation of your vCenter server version. Please click on the most trending errors listed below:",
+            "options": [
+              {
+                "label": "Latest updates already installed",
+                "value": {
+                  "input": {
+                    "text": "Latest updates"
+                  }
+                }
+              },
+              {
+                "label": "Download failed error message",
+                "value": {
+                  "input": {
+                    "text": "Download failed"
+                  }
+                }
+              },
+              {
+                "label": "Authentication token is no longer valid new one required",
+                "value": {
+                  "input": {
+                    "text": "Authentication token"
+                  }
+                }
+              },
+              {
+                "label": "Existing RPMs causing conflict",
+                "value": {
+                  "input": {
+                    "text": "Existing RPMs"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#6.5",
+      "dialog_node": "node_8_1658734536646",
+      "previous_sibling": "node_9_1658730553188"
+    },
+    {
+      "type": "standard",
+      "title": "Exception occurred",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/83145. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Exception_occurred",
+      "dialog_node": "node_8_1658751562222",
+      "previous_sibling": "node_3_1658751266672"
+    },
+    {
+      "type": "standard",
+      "title": "Yes partition space",
+      "output": {
+        "generic": [
+          {
+            "title": "Next Step - Is there any other SSL certificate expired?",
+            "options": [
+              {
+                "label": "Yes. other SSL certificates are expired",
+                "value": {
+                  "input": {
+                    "text": "Yes other certs expired"
+                  }
+                }
+              },
+              {
+                "label": "No, other SSL certificates are not expired",
+                "value": {
+                  "input": {
+                    "text": "No other certs expired"
+                  }
+                }
+              },
+              {
+                "label": "I am not sure how to check if other SSL certificates are expired ",
+                "value": {
+                  "input": {
+                    "text": "To check other certs"
+                  }
+                }
+              },
+              {
+                "label": "Go to main menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Yes_Partition_space",
+      "dialog_node": "node_9_1626769676949",
+      "previous_sibling": "node_9_1626854885580"
+    },
+    {
+      "type": "standard",
+      "title": "No partition space",
+      "output": {
+        "generic": [
+          {
+            "title": "I understand that there is not enough space in the partition. Please follow this KB article https://kb.vmware.com/s/article/2145603 to increase the partition size and click continue",
+            "options": [
+              {
+                "label": "Continue",
+                "value": {
+                  "input": {
+                    "text": "Yes partition space"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1626769676949"
+      },
+      "conditions": "#No_partition_space",
+      "dialog_node": "node_9_1626854885580",
+      "previous_sibling": "node_7_1626857198117"
+    },
+    {
+      "type": "standard",
+      "title": "Inaccessibility",
+      "output": {
+        "generic": [
+          {
+            "title": "OK. Please confirm if STS(Secure Token Signing) certificate is valid or expired?",
+            "options": [
+              {
+                "label": "Yes, STS certificate is expired",
+                "value": {
+                  "input": {
+                    "text": "Update"
+                  }
+                }
+              },
+              {
+                "label": "No, STS certificate is not expired",
+                "value": {
+                  "input": {
+                    "text": "Valid"
+                  }
+                }
+              },
+              {
+                "label": "I am not sure how to check if STS certificate is expired",
+                "value": {
+                  "input": {
+                    "text": "Verify"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Inaccessibility",
+      "dialog_node": "node_9_1658729960616",
+      "previous_sibling": "node_8_1658751562222"
+    },
+    {
+      "type": "standard",
+      "title": "Patching",
+      "output": {
+        "generic": [
+          {
+            "title": "OK. Please confirm the version of your vCenter server",
+            "options": [
+              {
+                "label": "6.5",
+                "value": {
+                  "input": {
+                    "text": "6.5"
+                  }
+                }
+              },
+              {
+                "label": "6.7",
+                "value": {
+                  "input": {
+                    "text": "6.7"
+                  }
+                }
+              },
+              {
+                "label": "7.0",
+                "value": {
+                  "input": {
+                    "text": "7.0"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Patching",
+      "dialog_node": "node_9_1658730553188",
+      "previous_sibling": "node_6_1659036357223"
+    },
+    {
+      "type": "standard",
+      "title": "Display error",
+      "output": {
+        "generic": [
+          {
+            "title": "Please follow this KB article to fix the issue - https://ikb.vmware.com/s/article/55683. Did this KB help to resolve your issue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes Helpful"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Services not started"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Display_error",
+      "dialog_node": "node_9_1658746756494",
+      "previous_sibling": "node_4_1658746579111"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "baseline"
+    },
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "vCenter Server Patching",
+  "language": "en",
+  "description": " copy"
+}
